@@ -1,23 +1,27 @@
-import './App.css'
+import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
     <>
-      <nav className='navbar'>
-        <div>
-          <p>Mesc</p>
-        </div>
-        <ul className='nav-links'>
-          <li><a href="#">Meus trabalhos</a></li>
-        </ul>
-      </nav>
+      <Navbar/>
       <section className='hero'>
 
       </section>
       <section className='little-presentation'>
-        <h1 className='bigTextPresentation'>Hello, i'm Maria Eduarda Santana</h1>
-        {/* <h2 className='smalTextPresentation'>And welcome do my portfolio</h2> */}
+        <div className='container'>
+        <h1 className='bigTextPresentation'>HELLO, I'M</h1>
+        <h1 className='bigTextPresentation'>MARIA</h1>
+        <h1 className='bigTextPresentation'>EDUARDA</h1>
+        <h1 className='bigTextPresentation'>SANTANA</h1>
+        </div>
+        
+        <h2 className='smalTextPresentation'>and welcome to my portfolio.</h2>
+      </section>
+      
+      <section className='carrousel'>
+        <p>aqui</p>
       </section>
     </>
   )
