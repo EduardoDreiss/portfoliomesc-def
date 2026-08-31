@@ -21,7 +21,7 @@ function App() {
       </section>
       
       <section className='carrousel'>
-        <p>aqui</p>
+        
       </section>
     </>
   )
