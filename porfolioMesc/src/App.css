@@ -8,7 +8,7 @@
 
 .little-presentation{
   height: 98vh;
-  background-image: url('../public/images/littlePresentationGrnBg.svg');
+  background-image: url('../public/images/LittlePresentationOnlybg.svg');
   background-size: contain;
   background-position: center;
   background-repeat: repeat;
@@ -22,6 +22,8 @@
   color: #fff;
   padding: 10px 20px;
   height: 50px;
+  position: fixed;
+  width: 100%;
 
 }
 
@@ -38,5 +40,20 @@
 }
 
 .nav-links a:hover {
-  color: #4CAF50;
+  color: #c26d0b;
+}
+
+.bigTextPresentation{
+  font-family: "Impact", sans-serif;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 8%;
+  font-size: 177px;
+  margin-right: 50%;
+}
+
+.smalTextPresentation{
+  font-family: "Impact", sans-serif;
+  text-align: left;
+  margin-left: 5%;
 }

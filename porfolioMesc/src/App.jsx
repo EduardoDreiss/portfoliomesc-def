@@ -8,7 +8,7 @@ function App() {
         <div>
           <p>Mesc</p>
         </div>
-        <ul>
+        <ul className='nav-links'>
           <li><a href="#">Meus trabalhos</a></li>
         </ul>
       </nav>
@@ -16,7 +16,8 @@ function App() {
 
       </section>
       <section className='little-presentation'>
-        <p>@duda.msc</p>
+        <h1 className='bigTextPresentation'>Hello, i'm Maria Eduarda Santana</h1>
+        {/* <h2 className='smalTextPresentation'>And welcome do my portfolio</h2> */}
       </section>
     </>
   )
