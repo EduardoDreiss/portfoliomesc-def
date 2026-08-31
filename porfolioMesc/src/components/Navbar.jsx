@@ -24,7 +24,7 @@ export default function Navbar() {
         <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
 
             <div className="navbar-brand">
-                <a>
+                <a href="/">
                     Mesc
                 </a>
             </div>
@@ -36,6 +36,9 @@ export default function Navbar() {
                     <li>
                         <a href="#trabalhos">
                             Meus trabalhos
+                        </a>
+                        <a href="#contato">
+                            contato
                         </a>
                     </li>
 
