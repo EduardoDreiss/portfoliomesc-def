@@ -38,7 +38,7 @@ export default function Navbar() {
                             Meus trabalhos
                         </a>
                         <a href="#contato">
-                            contato
+                            Contato
                         </a>
                     </li>
 

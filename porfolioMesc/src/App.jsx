@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Button from './components/Button';
 
 function App() {
 
@@ -7,7 +8,9 @@ function App() {
     <>
       <Navbar/>
       <section className='hero'>
-
+        <div className="heroButton">
+          <Button text="Me conheça"/>
+        </div>
       </section>
       <section className='little-presentation'>
         <div className='container'>
@@ -21,7 +24,7 @@ function App() {
       </section>
       
       <section className='carrousel'>
-        
+        <h1 className='qualquer'>Algumas de minhas obras:</h1>
       </section>
     </>
   )

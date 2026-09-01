@@ -42,7 +42,7 @@
 
 /* Estado da navbar depois de rolar */
 .navbar-scrolled {
-    top: 0.75rem;
+    top: 0.5rem;
     width: 90%;
     padding: 0.55rem 1.25rem;
 
