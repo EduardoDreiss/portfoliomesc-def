@@ -1,3 +1,6 @@
+strong{
+  color: rgb(212, 18, 18);
+}
 
 .hero {
   height: 100vh;
@@ -9,13 +12,28 @@
 }
 
 .little-presentation{
+  position: relative;
   height: 98vh;
-  background-image: url('../public/images/LittlePresentationOnlybg.svg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: repeat;
+  border-bottom: 5px solid rgb(212, 18, 18);
 }
 
+.mary {
+  position: absolute;
+
+  width: 500px;
+  height: 700px;
+
+  right: 5%;
+  bottom: 0;
+
+  background-image: url('/images/onlyMary.svg');
+
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  
+
+}
 
 .container{
   margin-top: 104px;
