@@ -58,15 +58,24 @@
 .navbar-brand a {
     display: inline-block;
 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.35rem;
     letter-spacing: 0.02em;
 
     color: var(--navbar-accent);
     text-decoration: none;
 
-    transition: font-size 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: font-size 450ms cubic-bezier(0.4, 0, 0.2, 1); */
+    /* background-image: url('/porfolioMesc/public/images/logoMESC.svg'); */
+    margin-left: 30px;
 }
+
+.navbar-brand img {
+    display: block;
+    width: 50px;
+    height: auto;
+}
+
 
 .navbar-scrolled .navbar-brand a {
     font-size: 1.15rem;

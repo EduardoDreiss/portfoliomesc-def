@@ -25,7 +25,7 @@ export default function Navbar() {
 
             <div className="navbar-brand">
                 <a href="/">
-                    Mesc
+                    <img src="/images/logoMESC.svg" alt="logo mesc" />
                 </a>
             </div>
 
