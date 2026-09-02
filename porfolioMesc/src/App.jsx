@@ -9,9 +9,11 @@ function App() {
     <>
       {/* <Navbar/> */}
       <section className='hero'>
-        <div className="heroButton">
-          <Button text="Me conheça"/>
-        </div>
+
+          <div className="heroButton">
+            <Button text="Me conheça"/>
+          </div>
+          
       </section>
       <section className='little-presentation'>
         <div className='container'>
