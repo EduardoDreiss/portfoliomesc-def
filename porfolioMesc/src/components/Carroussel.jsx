@@ -25,48 +25,33 @@ export default function Carroussel() {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
+    img: '/carrouselImages/photo.jpeg',
     title: 'Bed',
-    author: 'swabdesign',
+    author: 'Duda Santana',
   },
   {
-    img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
+    img: '/carrouselImages/photo2.jpeg',
     title: 'Books',
-    author: 'Pavel Nekoranec',
+    author: 'Duda Santana',
   },
   {
-    img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
+    img: '/carrouselImages/photo3.jpeg',
     title: 'Sink',
-    author: 'Charles Deluvio',
+    author: 'Duda Santana',
   },
   {
-    img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
+    img: '/carrouselImages/photo4.jpeg',
     title: 'Kitchen',
-    author: 'Christian Mackie',
+    author: 'Duda Santana',
   },
   {
-    img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
+    img: '/carrouselImages/photo5.jpeg',
     title: 'Blinds',
-    author: 'Darren Richardson',
+    author: 'Duda Santana',
   },
   {
-    img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+    img: '/carrouselImages/photo6.jpeg',
     title: 'Chairs',
-    author: 'Taylor Simpson',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
-    title: 'Laptop',
-    author: 'Ben Kolde',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
-    title: 'Doors',
-    author: 'Philipp Berndt',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7',
-    title: 'Coffee',
-    author: 'Jen P.',
+    author: 'Duda Santana',
   },
 ];

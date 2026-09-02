@@ -1,7 +1,7 @@
 import "./styleComponents/Button.css";
 
-export default function Button({text}){
+export default function Button({text}, link ="#", classname = ""){
     return(
-        <a href="#home" className="Botao">{text}</a>
+        <a href="{link}" className="Botao">{text}</a>
     )
 }

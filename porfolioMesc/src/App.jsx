@@ -10,10 +10,13 @@ function App() {
       {/* <Navbar/> */}
       <section className='hero'>
 
+        <div className='firstButton'>
+
           <div className="heroButton">
-            <Button text="Me conheça"/>
+            <Button text="Me conheça" className = "first-button"/>
           </div>
-          
+        </div>
+
       </section>
       <section className='little-presentation'>
         <div className='container'>
@@ -29,6 +32,14 @@ function App() {
       <section className='carrousel'>
         <h1 className='qualquer'>Algumas de minhas obras:</h1>
         <Carroussel/>
+
+        <div className='buttonCarousel'>
+
+        <Button
+        text={"Conheça minhas obras aqui."}
+        link={"/obras"}
+        />
+        </div>
       </section>
     </>
   )
