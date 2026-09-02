@@ -12,7 +12,7 @@ function App() {
       <section className='hero'>
 
         <div className='firstBadge'>
-            <Badge text={'Me conheça'}/>
+            <Badge text={'ME CONHEÇA'}/>
         </div>
 
       </section>
