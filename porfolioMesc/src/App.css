@@ -76,16 +76,11 @@ strong{
   font-size: 50px;
 }
 
-.firstButton {
+.firstBadge {
   position: absolute;
   /* left: 10%; */
   bottom: 10%;
   /* border:none !important; */
-}
-
-.firstButton .Botao {
-  border: none;
-  user-select: none;
 }
 
 

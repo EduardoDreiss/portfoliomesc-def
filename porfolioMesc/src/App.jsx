@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Button from './components/Button';
 import Carroussel from './components/Carroussel';
+import Badge from './components/Badge';
 
 function App() {
 
@@ -10,11 +11,8 @@ function App() {
       {/* <Navbar/> */}
       <section className='hero'>
 
-        <div className='firstButton'>
-
-          <div className="heroButton">
-            <Button text="Me conheça" className = "first-button"/>
-          </div>
+        <div className='firstBadge'>
+            <Badge text={'Me conheça'}/>
         </div>
 
       </section>
