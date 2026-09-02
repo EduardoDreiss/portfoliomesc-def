@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import "./styleComponents/Navbar.css";
+import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({link1, link2, text1, text2}) {
 
     const [scrolled, setScrolled] = useState(false);
 
@@ -34,12 +35,12 @@ export default function Navbar() {
                 <ul className="navbar-links">
 
                     <li>
-                        <a href="#trabalhos">
-                            Meus trabalhos
-                        </a>
-                        <a href="#contato">
-                            Contato
-                        </a>
+                        <Link to={link1}>
+                            {text1}
+                        </Link>
+                        <Link to={link2}>
+                            {text2}
+                        </Link>
                     </li>
 
                 </ul>

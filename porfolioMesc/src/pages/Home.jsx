@@ -1,14 +1,23 @@
 import '../styles/home.css';
+
+import { Link } from "react-router-dom";
+
 import Navbar from '../components/Navbar';
 import Button from '../components/Button';
 import Carroussel from '../components/Carroussel';
 import Badge from '../components/Badge';
 
+
+
 function Home() {
 
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar 
+      link1={"/obras"} text1={"Trabalhos"}
+      link2={"/obras"} text2={"Contato"}
+      />
+
       <section className='hero'>
 
         <div className='firstBadge'>
@@ -35,8 +44,9 @@ function Home() {
 
         <Button
         text={"Conheça minhas obras aqui."}
-        link={"/obras"}
+        link="/obras"
         />
+
         </div>
       </section>
     </>
