@@ -4,7 +4,7 @@ strong{
   
   .hero {
     height: 100vh;
-    background-image: url('images/heroFinal.svg');
+    background-image: url('../../public/images/heroFinal.svg');
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
