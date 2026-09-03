@@ -78,9 +78,7 @@ strong{
   
   .firstBadge {
     position: absolute;
-    /* left: 10%; */
     bottom: 10%;
-    /* border:none !important; */
   }
   
   
@@ -89,4 +87,5 @@ strong{
     margin-left: 30px;
     margin-top: 30px;
   }
+
   
