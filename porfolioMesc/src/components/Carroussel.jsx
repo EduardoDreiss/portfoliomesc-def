@@ -3,7 +3,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 
-export default function Carroussel() {
+export default function Carroussel({className = ""}) {
   return (
     <Box sx={{ marginLeft: 23, width: 1000, height: 450, overflowY: 'scroll' }}>
       <ImageList variant="masonry" cols={3} gap={8}>

@@ -2,7 +2,7 @@ import '../styles/home.css';
 
 import { Link } from "react-router-dom";
 
-import Navbar from '../components/Navbar';
+import NavbarRoller from '../components/NavbarRoller';
 import Button from '../components/Button';
 import Carroussel from '../components/Carroussel';
 import Badge from '../components/Badge';
@@ -13,9 +13,10 @@ function Home() {
 
   return (
     <>
-      <Navbar 
-      link1={"/obras"} text1={"Trabalhos"}
-      link2={"/obras"} text2={"Contato"}
+      <NavbarRoller 
+      link1={"/obras"} text1={"Sobre Mim"}
+      link2={"/obras"} text2={"Trabalhos"}
+      link3={"/obras"} text3={"Contato"}
       />
 
       <section className='hero'>
@@ -43,7 +44,7 @@ function Home() {
         <div className='buttonCarousel'>
 
         <Button
-        text={"Conheça minhas obras aqui."}
+        text={"Conheça mais aqui."}
         link="/obras"
         />
 

@@ -1,28 +1,12 @@
 import { useEffect, useState } from "react";
-import "./styleComponents/Navbar.css";
+import "./styleComponents/NavbarStdrt.css";
 import { Link } from "react-router-dom";
 
-export default function Navbar({link1, link2, text1, text2}) {
-
-    const [scrolled, setScrolled] = useState(false);
-
-    useEffect(() => {
-
-        const handleScroll = () => {
-            setScrolled(window.scrollY > 20);
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-
-    }, []);
+export default function NavbarStdrt({link1, link2, text1, text2, link3, text3}) {
 
     return (
 
-        <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
+        <nav className="navbar">
 
             <div className="navbar-brand">
                 <a href="/">
@@ -40,6 +24,9 @@ export default function Navbar({link1, link2, text1, text2}) {
                         </Link>
                         <Link to={link2}>
                             {text2}
+                        </Link>
+                        <Link to={link3}>
+                            {text3}
                         </Link>
                     </li>
 
