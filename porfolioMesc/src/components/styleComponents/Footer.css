@@ -1,0 +1,31 @@
+footer {
+    width: 100%;
+    padding: 30px 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #050505;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.55);
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+    transition: color 0.3s ease;
+}
+
+footer p:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
